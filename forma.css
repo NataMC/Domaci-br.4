@@ -1,0 +1,91 @@
+* {
+	font-family: 'Cabin', sans-serif;
+	box-sizing: border-box;
+}
+header {
+	background-image: url(https://www.radiohochstift.de/fileadmin/upload/service/2015/Horoskop_header_neu_kl.jpg);
+	background-size: cover;
+	color: white;
+	word-spacing: 25px;
+	text-align: right;
+	border-radius: 5px;
+	height: 150px;
+}
+span {
+	font-size: 20px;
+	color: lightgray;
+}
+a:hover {
+	text-transform: underline;
+	color: white;
+}
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	letter-spacing: 10px;
+	text-align: left;
+	margin-top: 0px;
+	position: absolute;
+	top:30px;
+	}
+nav ul li {
+	display: inline-block;
+}
+body {
+	background-image: url(http://www.astro-tarot.rs/wp-content/uploads/2014/10/astrology.jpg);
+	background-size: cover;
+	margin: 50px 150px;
+	border: 2px solid lightgray;
+	border-radius: 5px;
+	padding: 2px;
+	display: block;
+	color: #242424;
+	position: absolute;
+	top: 5px;
+	right: 50px;
+	}
+form {
+	border: 3px solid lightgray;
+	background-color: lightblue;
+	padding: 10px;
+	padding-top: 20px;
+	margin: 5px;
+	border-radius: 5px;
+	
+}
+
+#obavezno {
+	color: red;
+	background-color: lightgrey;
+	padding: 5px;
+
+}
+label {
+	width: 200px;
+	float: left;
+	margin-right: 70px;
+	margin-left: 30px;
+
+}
+input {
+	display: block;
+	width: 200px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: lightgrey;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.vrsta {
+	margin-left: 550px;
+	margin-right: 400px;
+	border-radius: 10px;
+}
+.pol {
+	margin-left: 120px; 
+}
+
+#Prikaži {
+	margin-left: 550px;
+	width: 100px;
+}
+

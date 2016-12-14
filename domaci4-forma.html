@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forma</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="forma.css">
+</head>
+	<header>
+		<h1>ASTRO<span>FUN</span>BAR</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Početna</a></li>
+				<li><a href="#">Astrologija</a></li>
+				<li><a href="#">Kontakt</a></li>
+			</ul>	
+		</nav>
+	</header>
+<body>
+
+	<form action="">
+		<p id="obavezno"><strong>Potrebno je popuniti sva polja</strong></p>
+
+		<div class="vrsta">
+			<label for="Natalna karta">Natalna karta</label>
+			<input type="checkbox" name="Natalna karta" value="natalna" checked>
+
+			<label for="Solarni horoskop">Solarni horoskop</label>
+			<input type="checkbox" name="Solarni horoskop" value="solarni">
+		</div>
+		<label for="Ime" >Ime i prezime:</label>
+		<input type="text" name="Ime">
+			
+		<label class="pol" for="Pol">Muški</label>
+		<input type="radio" name="Pol" value="Muški">
+		
+		<label class="pol" for="Pol">Ženski</label>
+		<input type="radio" name="Pol" value="Ženski" checked>
+		
+		<label for="Datum rođenja">Datum rođenja:</label>
+		<input type="date" name="Datum rođenja" value="date">
+
+		<label for="Vreme rođenja">Vreme rođenja:</label>
+		<input type="time" name="Vreme rođenja" value="time">
+
+		<label for="Država">Država:</label>
+		<input type="text" name="Država">
+
+		<label for="Grad">Grad:</label>
+		<input type="text" name="Grad">
+		
+		<label for="E-mail">E-mail:</label>
+		<input type="email" name="E-mail" value="E-mail"  placeholder="name@gmail.com">
+
+		<input type="submit" name="Prikaži" value="Prikaži" id="Prikaži">
+	</form>
+</body>
+</html>
