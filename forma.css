@@ -33,15 +33,13 @@ nav ul li {
 body {
 	background-image: url(http://www.astro-tarot.rs/wp-content/uploads/2014/10/astrology.jpg);
 	background-size: cover;
-	margin: 50px 150px;
 	border: 2px solid lightgray;
 	border-radius: 5px;
 	padding: 2px;
 	display: block;
 	color: #242424;
-	position: absolute;
+	position: relative;
 	top: 5px;
-	right: 50px;
 	}
 form {
 	border: 3px solid lightgray;
@@ -50,7 +48,6 @@ form {
 	padding-top: 20px;
 	margin: 5px;
 	border-radius: 5px;
-	
 }
 
 #obavezno {
